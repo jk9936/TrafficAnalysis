@@ -7,5 +7,13 @@ How to get started:
 1. Clone the repository or download from github
 2. Open anaconda promt and run the **trainingmain.py**
 3. Now the model has started training 
-4. Let the model train and then open SUMO GUI and then load the sumo.ini file.
+4. Let the model train and then open SUMO GUI and then load the .sumocfg file.
 5. Now as the model trains we can see the graphical and pictorial representations on screen.
+
+ The end result on a cross-section should look like this when fired up correctly:
+ 
+![tlc](https://user-images.githubusercontent.com/29151572/144835734-753e6622-4690-4e98-a627-92f15f87cf06.gif)
+
+Future plans:
+1. Adding real time data feeds
+2. trying to connect multiple paths (T-points,Highways,Cross-lanes etc.) and then minimising the traffic clearing time as we go on create a complete map.
